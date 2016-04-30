@@ -1,0 +1,30 @@
+a.tooltip {
+  outline:none;
+  margin-top: 20px; 
+ }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+.tooltip>img{
+margin-top: 50px;
+}
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+    margin-top:50px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px ; background:#DCA;
+    border-radius:5px;}
+.callout {z-index:20;
+  position:absolute;top:30px;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid #DCA;  
+
+  left:-10px;}
+    
+/*CSS3 extras*/
